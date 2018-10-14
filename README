@@ -1,1 +1,6 @@
-training/initial testing data in all_data.csv
+Description
+
+collected headlines from each news source -> finished_csv
+training data -> all_data.csv (from https://github.com/bhargaviparanjape/clickbait) 
+linear svm classifier -> classifier.py
+classified headlines -> classified_headlines_all
