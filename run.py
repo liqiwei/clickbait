@@ -5,7 +5,7 @@ import sklearn
 clickbait_percentage = pd.read_csv('percents.csv')
 dic_source_clickbait = {row['source']: row['percent_clickbait'] for i, row in clickbait_percentage.iterrows()}
 average_clickbait = clickbait_percentage.percent_clickbait.sum() / len(clickbait_percentage)
-data = pd.read_csv('edata_all.csv')
+data = pd.read_csv('edata_classified.csv')
 
 def add_clickbait(source):
     if source.startswith('www.'):
