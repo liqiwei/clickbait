@@ -1,6 +1,11 @@
 Description
 
-collected headlines from each news source -> finished_csv
+used Bing News API to collect 100 headlines from 533 news sources -> bing_api.py, full_data
+built linear svm classifier for clickbait or not clickbait headline-> classifier.ipynb
 training data -> all_data.csv (from https://github.com/bhargaviparanjape/clickbait) 
-linear svm classifier -> classifier.py
 classified headlines -> classified_headlines_all
+how many headlines were clickbait(per source)? -> percent_file.csv 
+applied clickbait data to fact checking model to test for improvements in predictive correctness -> run2.ipynb
+
+
+
